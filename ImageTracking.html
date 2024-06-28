@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylessimagetracking.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.0.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+    <link rel="stylesheet" href="stylessimagetracking.css">
+    <title>Augmented Reality</title>
+  </head>
+  <body>
+
+    <div class="header">
+      <img src="./assets/logo.png" alt="Logo" class="logo">
+      <span>Augmented Reality</span>
+    </div>
+    <button class="back-button" onclick="window.location.href='https://monicaca9.github.io/AR-ImageTracking-Web/AR-WEB/web.html'">Back</button>
+
+    <a-scene mindar-image="imageTargetSrc: ./assets/targets.mind; maxTrack: 11" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+      <a-assets>
+        <a-asset-item id="angelaModel" src="./assets/angela/scene.gltf"></a-asset-item>
+        <a-asset-item id="jerryModel" src="./assets/jerry/scene.gltf"></a-asset-item>
+        <a-asset-item id="marioModel" src="./assets/mario/scene.gltf"></a-asset-item>
+        <a-asset-item id="pandaModel" src="./assets/panda/scene.gltf"></a-asset-item>
+        <a-asset-item id="planktonModel" src="./assets/plankton/scene.gltf"></a-asset-item>
+        <a-asset-item id="sbobModel" src="./assets/sbob/scene.gltf"></a-asset-item>
+        <a-asset-item id="shrekModel" src="./assets/shrek/scene.gltf"></a-asset-item>
+        <a-asset-item id="simpsonModel" src="./assets/simpson/scene.gltf"></a-asset-item>
+        <a-asset-item id="waluigiModel" src="./assets/waluigi/scene.gltf"></a-asset-item>
+        <a-asset-item id="tomModel" src="./assets/tom/scene.gltf"></a-asset-item>
+      </a-assets>
+
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/bg.png"></a-plane>
+        <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" src="#angelaModel" animation-mixer></a-gltf-model>
+        </a-entity>
+
+        <a-entity mindar-image-target="targetIndex: 1">
+        <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/bg.png"></a-plane>
+        <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="0.001 0.001 0.001" src="#jerryModel" animation-mixer></a-gltf-model>
+        </a-entity>
+
+        <a-entity mindar-image-target="targetIndex: 2">
+        <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/bg.png"></a-plane>
+        <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" src="#marioModel" animation-mixer></a-gltf-model>
+        </a-entity>
+
+        <a-entity mindar-image-target="targetIndex: 3">
+        <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/bg.png"></a-plane>
+        <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="0.2 0.2 0.2" src="#pandaModel" animation-mixer></a-gltf-model>
+        </a-entity>
+
+        <a-entity mindar-image-target="targetIndex: 4">
+        <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/bg.png"></a-plane>
+        <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" src="#planktonModel" animation-mixer></a-gltf-model>
+        </a-entity>
+
+        <a-entity mindar-image-target="targetIndex: 5">
+        <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/bg.png"></a-plane>
+        <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" src="#sbobModel" animation-mixer></a-gltf-model>
+        </a-entity>
+
+        <a-entity mindar-image-target="targetIndex: 6">
+        <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/bg.png"></a-plane>
+        <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" src="#shrekModel" animation-mixer></a-gltf-model>
+        </a-entity>
+
+        <a-entity mindar-image-target="targetIndex: 7">
+        <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/bg.png"></a-plane>
+        <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" src="#simpsonModel" animation-mixer></a-gltf-model>
+        </a-entity>
+
+        <a-entity mindar-image-target="targetIndex: 8">
+        <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/bg.png"></a-plane>
+        <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="0.01 0.01 0.01" src="#waluigiModel" animation-mixer></a-gltf-model>
+        </a-entity>
+
+        <a-entity mindar-image-target="targetIndex: 9">
+        <a-plane width="1" height="1" position="0 0 0" rotation="0 0 0" src="./assets/bg.png"></a-plane>
+        <a-gltf-model rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" src="#tomModel" animation-mixer></a-gltf-model>
+        </a-entity>
+
+    </a-scene>
+  </body>
+</html>

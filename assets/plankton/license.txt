@@ -1,0 +1,11 @@
+Model Information:
+* title:	Plankton Dance!
+* source:	https://sketchfab.com/3d-models/plankton-dance-be2559b289af49cbb776578757c4ac66
+* author:	Thomas the Tank Engine 1000 (https://sketchfab.com/thomasthetankengine1000)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Plankton Dance!" (https://sketchfab.com/3d-models/plankton-dance-be2559b289af49cbb776578757c4ac66) by Thomas the Tank Engine 1000 (https://sketchfab.com/thomasthetankengine1000) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

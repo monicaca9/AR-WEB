@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #f0f4f8;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    padding: 1rem 1% 1rem;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    width: 40px; /* Sesuaikan lebar logo */
+    margin-right: 10px; /* Berikan jarak antara logo dan teks */
+}
+
+.back-button {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #6B88A6;
+    padding: 10px 30px;
+    border: 1px solid #6B88A6;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 0 25px #6B88A6;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.back-button:hover {
+    background-color: #557295;
+    transform: scale(1.05);
+}

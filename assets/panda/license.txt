@@ -1,0 +1,11 @@
+Model Information:
+* title:	Panda - Cartoon Cute - Animated - Rigged
+* source:	https://sketchfab.com/3d-models/panda-cartoon-cute-animated-rigged-b9229a00d4084ca0832381cecf970c07
+* author:	MR7 (https://sketchfab.com/Matt.Reardon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Panda - Cartoon Cute - Animated - Rigged" (https://sketchfab.com/3d-models/panda-cartoon-cute-animated-rigged-b9229a00d4084ca0832381cecf970c07) by MR7 (https://sketchfab.com/Matt.Reardon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

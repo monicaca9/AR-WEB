@@ -1,0 +1,11 @@
+Model Information:
+* title:	Smg3 Dancing
+* source:	https://sketchfab.com/3d-models/smg3-dancing-416baaacaa2e41d79238cccb95fc22e2
+* author:	Smg4 model (https://sketchfab.com/joseildomelo148)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Smg3 Dancing" (https://sketchfab.com/3d-models/smg3-dancing-416baaacaa2e41d79238cccb95fc22e2) by Smg4 model (https://sketchfab.com/joseildomelo148) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
