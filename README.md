@@ -11,4 +11,4 @@ Marker AR dimanfaatkan untuk mendeteksi posisi di dunia nyata. Marker dapat diak
 - Scan marker sampai mengeluarkan gambar 3D
 
 # QR-Code
-![QR-CODE](https://monicaca9.github.io/AR-ImageTracking-Web/AR-WEB/qr.png?raw=true "QR-CODE")
+![QR-CODE](https://monicaca9.github.io/AR-WEB/qr.png?raw=true "QR-CODE")
